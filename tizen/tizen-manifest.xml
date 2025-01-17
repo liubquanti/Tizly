@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.example.tizly" version="1.0.0" api-version="6.0" xmlns="http://tizen.org/ns/packages">
+    <profile name="wearable"/>
+    <ui-application appid="com.example.tizly" exec="Runner.dll" type="dotnet" multiple="false" nodisplay="false" taskmanage="true">
+        <label>tizly</label>
+        <icon>ic_launcher.png</icon>
+        <metadata key="http://tizen.org/metadata/prefer_dotnet_aot" value="true"/>
+    </ui-application>
+    <feature name="http://tizen.org/feature/screen.size.normal">true</feature>
+    <privileges>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+        <privilege>http://tizen.org/privilege/network.get</privilege>
+    </privileges>
+</manifest>
